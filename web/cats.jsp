@@ -90,7 +90,10 @@
               <span class="sr-only">Next</span>
             </a>
           </div>
-
+		  
+		  <form action="processPetSelection.html" method ="post" id="petForm">
+		  <input type="hidden" name="selectedPet" value="Cat">
+		  
           <div class="row">
 
             <div class="col-lg-4 col-md-6 mb-4">
@@ -102,7 +105,7 @@
                   <p class="card-text">Puuuuursian Cat</p>
                 </div>
                 <div class="card-footer" style="text-align:center">
-                  <input type="submit" class="btn btn-primary" value="Show Details">
+                  <input type="submit" class="btn btn-primary" value="Persian" name="selectedBreed">
                 </div>
               </div>
             </div>
@@ -116,7 +119,7 @@
                   <p class="card-text">I'm Siamese but I'm not Japanese.</p>
                 </div>
                 <div class="card-footer" style="text-align:center">
-                  <input type="submit" class="btn btn-primary" value="Show Details">
+                  <input type="submit" class="btn btn-primary" value="Siamese" name="selectedBreed">
                 </div>
               </div>
             </div>
@@ -130,7 +133,7 @@
                   <p class="card-text">My mom is Cleopatra, bow down to me.</p>
                 </div>
                 <div class="card-footer" style="text-align:center">
-                  <input type="submit" class="btn btn-primary" value="Show Details">
+                  <input type="submit" class="btn btn-primary" value="Sphynx" name="selectedBreed">
                 </div>
               </div>
             </div>
@@ -144,7 +147,7 @@
                   <p class="card-text">Ragdoll, barbie doll</p>
                 </div>
                 <div class="card-footer" style="text-align:center">
-                  <input type="submit" class="btn btn-primary" value="Show Details">
+                  <input type="submit" class="btn btn-primary" value="Ragdoll" name="selectedBreed">
                 </div>
               </div>
             </div>
@@ -158,7 +161,7 @@
                   <p class="card-text">Bengal bells, Bengal bells, Bengal all the way</p>
                 </div>
                 <div class="card-footer" style="text-align:center">
-                  <input type="submit" class="btn btn-primary" value="Show Details">
+                  <input type="submit" class="btn btn-primary" value="Bengal" name="selectedBreed">
                 </div>
               </div>
             </div>
@@ -172,12 +175,13 @@
                   <p class="card-text">Siberiaaaaaaaaaaaaa</p>
                 </div>
                 <div class="card-footer" style="text-align:center">
-                  <input type="submit" class="btn btn-primary" value="Show Details">
+                  <input type="submit" class="btn btn-primary" value="Siberian" name="selectedBreed">
                 </div>
               </div>
             </div>
 
           </div>
+          </form>
           <!-- /.row -->
 
         </div>

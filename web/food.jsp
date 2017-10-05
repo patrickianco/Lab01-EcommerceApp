@@ -92,7 +92,10 @@
           </div>
 
           <div class="row">
-
+			
+		<form action="processFoodSelection.html" method ="post" id="petForm">
+		  <input type="hidden" name="selectedAnimal" value="Dog">
+			
             <div class="col-lg-4 col-md-6 mb-4">
               <div class="card h-100">
                 <a href="#"><img class="card-img-top" src="img/persian.jpg" alt=""></a>
@@ -102,7 +105,7 @@
                   <p class="card-text">This will not make your dog blue. I promise.</p>
                 </div>
                 <div class="card-footer" style="text-align:center">
-                  <input type="submit" class="btn btn-primary" value="Show Details">
+                  <input type="submit" class="btn btn-primary" value="Blue Buffalo" name="selectedFood">
                 </div>
               </div>
             </div>
@@ -116,7 +119,7 @@
                   <p class="card-text">Canidae eyyy</p>
                 </div>
                 <div class="card-footer" style="text-align:center">
-                  <input type="submit" class="btn btn-primary" value="Show Details">
+                  <input type="submit" class="btn btn-primary" value="Canidae" name="selectedFood">
                 </div>
               </div>
             </div>
@@ -130,11 +133,13 @@
                   <p class="card-text">The only dog food that people know.</p>
                 </div>
                 <div class="card-footer" style="text-align:center">
-                  <input type="submit" class="btn btn-primary" value="Show Details">
+                  <input type="submit" class="btn btn-primary" value="Pedigree" name="selectedFood">
                 </div>
               </div>
             </div>
-
+		</form>
+		<form action="processFoodSelection.html" method ="post" id="petForm">
+		  <input type="hidden" name="selectedAnimal" value="Cat">
             <div class="col-lg-4 col-md-6 mb-4">
               <div class="card h-100">
                 <a href="#"><img class="card-img-top" src="img/ragdoll.jpg" alt=""></a>
@@ -144,7 +149,7 @@
                   <p class="card-text">Let's be honest, your cat is the one in charge.</p>
                 </div>
                 <div class="card-footer" style="text-align:center">
-                  <input type="submit" class="btn btn-primary" value="Show Details">
+                  <input type="submit" class="btn btn-primary" value="Authority" name="selectedFood">
                 </div>
               </div>
             </div>
@@ -158,7 +163,7 @@
                   <p class="card-text">You cat deserves this.</p>
                 </div>
                 <div class="card-footer" style="text-align:center">
-                  <input type="submit" class="btn btn-primary" value="Show Details">
+                  <input type="submit" class="btn btn-primary" value="Fancy Feast" name="selectedFood">
                 </div>
               </div>
             </div>
@@ -172,11 +177,11 @@
                   <p class="card-text">The only cat food that people know</p>
                 </div>
                 <div class="card-footer" style="text-align:center">
-                  <input type="submit" class="btn btn-primary" value="Show Details">
+                  <input type="submit" class="btn btn-primary" value="Friskies" name="selectedFood">
                 </div>
               </div>
             </div>
-
+		</form>
           </div>
           <!-- /.row -->
 
