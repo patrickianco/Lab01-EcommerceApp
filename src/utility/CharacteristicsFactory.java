@@ -35,6 +35,9 @@ public class CharacteristicsFactory implements AbstractFactory {
 				case "Persian": charateristics = new Persian(); break;
 				case "Siamese": charateristics = new Siamese(); break;
 				case "Sphynx": charateristics = new Sphynx(); break;
+				case "Ragdoll": charateristics = new Ragdoll(); break;
+				case "Bengal": charateristics = new Bengal(); break;
+				case "Siberian": charateristics = new Siberian(); break;
 			}
 		}
 		if(animal instanceof Dog)
@@ -44,6 +47,9 @@ public class CharacteristicsFactory implements AbstractFactory {
 				case "Corgi": charateristics = new Corgi(); break;
 				case "GermanShepherd": charateristics = new GermanShepherd(); break;
 				case "Labrador": charateristics = new Labrador(); break;
+				case "Beagle": charateristics = new Beagle(); break;
+				case "Pug": charateristics = new Pug(); break;
+				case "Bulldog": charateristics = new Bulldog(); break;
 			}
 		}
 		
