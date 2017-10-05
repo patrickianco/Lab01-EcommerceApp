@@ -72,13 +72,13 @@
             </ol>
             <div class="carousel-inner" role="listbox">
               <div class="carousel-item active">
-                <img class="d-block img-fluid" src="img/cat-1.jpg" alt="First slide">
+                <img class="d-block img-fluid" src="img/dog-1.jpg" alt="First slide">
               </div>
               <div class="carousel-item">
                 <img class="d-block img-fluid" src="img/cat-2.jpg" alt="Second slide">
               </div>
               <div class="carousel-item">
-                <img class="d-block img-fluid" src="img/cat-3.jpg" alt="Third slide">
+                <img class="d-block img-fluid" src="img/dog-3.jpg" alt="Third slide">
               </div>	
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -95,7 +95,7 @@
 
             <div class="col-lg-4 col-md-6 mb-4">
               <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="img/persian.jpg" alt=""></a>
+                <a href="#"><img class="card-img-top" src="img/blue.jpg" alt=""></a>
                 <div class="card-body">
                   <h4 class="card-title">Blue Buffalo</h4>
                   <h5>Php 1,500.00</h5>
@@ -109,7 +109,7 @@
 
             <div class="col-lg-4 col-md-6 mb-4">
               <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="img/siamese.jpg" alt=""></a>
+                <a href="#"><img class="card-img-top" src="img/canidae.jpg" alt=""></a>
                 <div class="card-body">
                   <h4 class="card-title">Canidae</h4>
                   <h5>Php 800.00</h5>
@@ -123,7 +123,7 @@
 
             <div class="col-lg-4 col-md-6 mb-4">
               <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="img/sphynx.jpg" alt=""></a>
+                <a href="#"><img class="card-img-top" src="img/pedigree.jpg" alt=""></a>
                 <div class="card-body">
                   <h4 class="card-title">Pedigree</h4>
                   <h5>Php 1,200.00</h5>
@@ -137,7 +137,7 @@
 
             <div class="col-lg-4 col-md-6 mb-4">
               <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="img/ragdoll.jpg" alt=""></a>
+                <a href="#"><img class="card-img-top" src="img/authority.jpg" alt=""></a>
                 <div class="card-body">
                   <h4 class="card-title">Authority</h4>
                   <h5>Php 700.00</h5>
@@ -151,7 +151,7 @@
 
             <div class="col-lg-4 col-md-6 mb-4">
               <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="img/bengal.jpg" alt=""></a>
+                <a href="#"><img class="card-img-top" src="img/fancy.jpg" alt=""></a>
                 <div class="card-body">
                   <h4 class="card-title">Fancy Feast</h4>
                   <h5>Php 950.00</h5>
@@ -165,7 +165,7 @@
 
             <div class="col-lg-4 col-md-6 mb-4">
               <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="img/siberian.jpg" alt=""></a>
+                <a href="#"><img class="card-img-top" src="img/friskies.jpg" alt=""></a>
                 <div class="card-body">
                   <h4 class="card-title">Friskies</h4>
                   <h5>Php 1,100.00</h5>
