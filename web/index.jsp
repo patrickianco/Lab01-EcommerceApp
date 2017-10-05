@@ -90,7 +90,9 @@
               <span class="sr-only">Next</span>
             </a>
           </div>
-
+			
+		 <form action="processPetSelection.html" method ="post" id="petForm">
+		  <input type="hidden" name="selectedPet" value="Dog">
           <div class="row">
 
             <div class="col-lg-4 col-md-6 mb-4">
@@ -102,7 +104,7 @@
                   <p class="card-text">I have a big butt!</p>
                 </div>
                 <div class="card-footer" style="text-align:center">
-                  <input type="submit" class="btn btn-primary" value="Show Details">
+                  <input type="submit" class="btn btn-primary" value="Corgi" name="selectedBreed">
                 </div>
               </div>
             </div>
@@ -116,7 +118,7 @@
                   <p class="card-text">Half German, half shepherd</p>
                 </div>
                 <div class="card-footer" style="text-align:center">
-                  <input type="submit" class="btn btn-primary" value="Show Details">
+                  <input type="submit" class="btn btn-primary" value="GermanShepherd" name="selectedBreed">
                 </div>
               </div>
             </div>
@@ -130,7 +132,7 @@
                   <p class="card-text">I'm the dog from the movie Up! Ball!</p>
                 </div>
                 <div class="card-footer" style="text-align:center">
-                  <input type="submit" class="btn btn-primary" value="Show Details">
+                  <input type="submit" class="btn btn-primary" value="Labrador" name="selectedBreed">
                 </div>
               </div>
             </div>
@@ -144,7 +146,7 @@
                   <p class="card-text">Look at my ears!</p>
                 </div>
                 <div class="card-footer" style="text-align:center">
-                  <input type="submit" class="btn btn-primary" value="Show Details">
+                  <input type="submit" class="btn btn-primary" value="Beagle" name="selectedBreed">
                 </div>
               </div>
             </div>
@@ -158,7 +160,7 @@
                   <p class="card-text">I'm a pug, so please give me a hug.</p>
                 </div>
                 <div class="card-footer" style="text-align:center">
-                  <input type="submit" class="btn btn-primary" value="Show Details">
+                  <input type="submit" class="btn btn-primary" value="Pug" name="selectedBreed">
                 </div>
               </div>
             </div>
@@ -172,12 +174,13 @@
                   <p class="card-text">I'm a good boy, I promise!</p>
                 </div>
                 <div class="card-footer" style="text-align:center">
-                  <input type="submit" class="btn btn-primary" value="Show Details">
+                  <input type="submit" class="btn btn-primary" value="Bulldog" name="selectedBreed">
                 </div>
               </div>
             </div>
 
           </div>
+          </form>
           <!-- /.row -->
 
         </div>
