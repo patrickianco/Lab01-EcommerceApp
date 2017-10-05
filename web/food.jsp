@@ -72,14 +72,14 @@
             </ol>
             <div class="carousel-inner" role="listbox">
               <div class="carousel-item active">
-                <img class="d-block img-fluid" src="img/dog-1.jpg" alt="First slide">
+                <img class="d-block img-fluid" src="img/cat-1.jpg" alt="First slide">
               </div>
               <div class="carousel-item">
-                <img class="d-block img-fluid" src="img/dog-2.jpg" alt="Second slide">
+                <img class="d-block img-fluid" src="img/cat-2.jpg" alt="Second slide">
               </div>
               <div class="carousel-item">
-                <img class="d-block img-fluid" src="img/dog-3.jpg" alt="Third slide">
-              </div>
+                <img class="d-block img-fluid" src="img/cat-3.jpg" alt="Third slide">
+              </div>	
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -95,11 +95,11 @@
 
             <div class="col-lg-4 col-md-6 mb-4">
               <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="img/corgi.jpg" alt=""></a>
+                <a href="#"><img class="card-img-top" src="img/persian.jpg" alt=""></a>
                 <div class="card-body">
-                  <h4 class="card-title">Corgi</h4>
-                  <h5>Php 25,000.00</h5>
-                  <p class="card-text">I have a big butt!</p>
+                  <h4 class="card-title">Blue Buffalo</h4>
+                  <h5>Php 1,500.00</h5>
+                  <p class="card-text">This will not make your dog blue. I promise.</p>
                 </div>
                 <div class="card-footer" style="text-align:center">
                   <input type="submit" class="btn btn-primary" value="Show Details">
@@ -109,11 +109,11 @@
 
             <div class="col-lg-4 col-md-6 mb-4">
               <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="img/german.jpg" alt=""></a>
+                <a href="#"><img class="card-img-top" src="img/siamese.jpg" alt=""></a>
                 <div class="card-body">
-                  <h4 class="card-title">German Shepherd</h4>
-                  <h5>Php 28,000.00</h5>
-                  <p class="card-text">Half German, half shepherd</p>
+                  <h4 class="card-title">Canidae</h4>
+                  <h5>Php 800.00</h5>
+                  <p class="card-text">Canidae eyyy</p>
                 </div>
                 <div class="card-footer" style="text-align:center">
                   <input type="submit" class="btn btn-primary" value="Show Details">
@@ -123,11 +123,11 @@
 
             <div class="col-lg-4 col-md-6 mb-4">
               <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="img/labrador.jpg" alt=""></a>
+                <a href="#"><img class="card-img-top" src="img/sphynx.jpg" alt=""></a>
                 <div class="card-body">
-                  <h4 class="card-title">Labrador Retriever</h4>
-                  <h5>Php 15,000.00</h5>
-                  <p class="card-text">I'm the dog from the movie Up! Ball!</p>
+                  <h4 class="card-title">Pedigree</h4>
+                  <h5>Php 1,200.00</h5>
+                  <p class="card-text">The only dog food that people know.</p>
                 </div>
                 <div class="card-footer" style="text-align:center">
                   <input type="submit" class="btn btn-primary" value="Show Details">
@@ -137,11 +137,11 @@
 
             <div class="col-lg-4 col-md-6 mb-4">
               <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="img/beagle.jpg" alt=""></a>
+                <a href="#"><img class="card-img-top" src="img/ragdoll.jpg" alt=""></a>
                 <div class="card-body">
-                  <h4 class="card-title">Beagle</h4>
-                  <h5>Php 21,000.00</h5>
-                  <p class="card-text">Look at my ears!</p>
+                  <h4 class="card-title">Authority</h4>
+                  <h5>Php 700.00</h5>
+                  <p class="card-text">Let's be honest, your cat is the one in charge.</p>
                 </div>
                 <div class="card-footer" style="text-align:center">
                   <input type="submit" class="btn btn-primary" value="Show Details">
@@ -151,11 +151,11 @@
 
             <div class="col-lg-4 col-md-6 mb-4">
               <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="img/pug.jpg" alt=""></a>
+                <a href="#"><img class="card-img-top" src="img/bengal.jpg" alt=""></a>
                 <div class="card-body">
-                  <h4 class="card-title">Pug</h4>
-                  <h5>Php 14,000.00</h5>
-                  <p class="card-text">I'm a pug, so please give me a hug.</p>
+                  <h4 class="card-title">Fancy Feast</h4>
+                  <h5>Php 950.00</h5>
+                  <p class="card-text">You cat deserves this.</p>
                 </div>
                 <div class="card-footer" style="text-align:center">
                   <input type="submit" class="btn btn-primary" value="Show Details">
@@ -165,11 +165,11 @@
 
             <div class="col-lg-4 col-md-6 mb-4">
               <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="img/bulldog.jpg" alt=""></a>
+                <a href="#"><img class="card-img-top" src="img/siberian.jpg" alt=""></a>
                 <div class="card-body">
-                  <h4 class="card-title">Bulldog</h4>
-                  <h5>Php 31,000.00</h5>
-                  <p class="card-text">I'm a good boy, I promise!</p>
+                  <h4 class="card-title">Friskies</h4>
+                  <h5>Php 1,100.00</h5>
+                  <p class="card-text">The only cat food that people know</p>
                 </div>
                 <div class="card-footer" style="text-align:center">
                   <input type="submit" class="btn btn-primary" value="Show Details">

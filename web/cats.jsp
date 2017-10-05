@@ -52,12 +52,11 @@
 
         <div class="col-lg-3">
 
-          <h1 class="my-4">Shop Name</h1>
+          <h1 class="my-4">Animaux Domestiques</h1>
           <div class="list-group">
             <a href="index.jsp" class="list-group-item">Dogs</a>
             <a href="cats.jsp" class="list-group-item">Cats</a>
-            <a href="dogfood.jsp" class="list-group-item">Dog Food</a>
-            <a href="catfood.jsp" class="list-group-item">Cat Food</a>
+            <a href="food.jsp" class="list-group-item">Foods</a>
           </div>
 
         </div>
@@ -73,13 +72,13 @@
             </ol>
             <div class="carousel-inner" role="listbox">
               <div class="carousel-item active">
-                <img class="d-block img-fluid" src="http://placehold.it/900x350" alt="First slide">
+                <img class="d-block img-fluid" src="img/cat-1.jpg" alt="First slide">
               </div>
               <div class="carousel-item">
-                <img class="d-block img-fluid" src="http://placehold.it/900x350" alt="Second slide">
+                <img class="d-block img-fluid" src="img/cat-2.jpg" alt="Second slide">
               </div>
               <div class="carousel-item">
-                <img class="d-block img-fluid" src="http://placehold.it/900x350" alt="Third slide">
+                <img class="d-block img-fluid" src="img/cat-3.jpg" alt="Third slide">
               </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -98,14 +97,12 @@
               <div class="card h-100">
                 <a href="#"><img class="card-img-top" src="img/persian.jpg" alt=""></a>
                 <div class="card-body">
-                  <h4 class="card-title">
-                    <a href="#">Persian</a>
-                  </h4>
+                  <h4 class="card-title">Persian</h4>
                   <h5>Php 20,500.00</h5>
                   <p class="card-text">Puuuuursian Cat</p>
                 </div>
-                <div class="card-footer">
-                  <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                <div class="card-footer" style="text-align:center">
+                  <input type="submit" class="btn btn-primary" value="Show Details">
                 </div>
               </div>
             </div>
@@ -114,14 +111,12 @@
               <div class="card h-100">
                 <a href="#"><img class="card-img-top" src="img/siamese.jpg" alt=""></a>
                 <div class="card-body">
-                  <h4 class="card-title">
-                    <a href="#">Siamese</a>
-                  </h4>
+                  <h4 class="card-title">Siamese</h4>
                   <h5>Php 18,000.00</h5>
                   <p class="card-text">I'm Siamese but I'm not Japanese.</p>
                 </div>
-                <div class="card-footer">
-                  <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                <div class="card-footer" style="text-align:center">
+                  <input type="submit" class="btn btn-primary" value="Show Details">
                 </div>
               </div>
             </div>
@@ -130,14 +125,12 @@
               <div class="card h-100">
                 <a href="#"><img class="card-img-top" src="img/sphynx.jpg" alt=""></a>
                 <div class="card-body">
-                  <h4 class="card-title">
-                    <a href="#">Sphynx</a>
-                  </h4>
+                  <h4 class="card-title">Sphynx</h4>
                   <h5>Php 28,300.00</h5>
                   <p class="card-text">My mom is Cleopatra, bow down to me.</p>
                 </div>
-                <div class="card-footer">
-                  <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                <div class="card-footer" style="text-align:center">
+                  <input type="submit" class="btn btn-primary" value="Show Details">
                 </div>
               </div>
             </div>
@@ -146,14 +139,12 @@
               <div class="card h-100">
                 <a href="#"><img class="card-img-top" src="img/ragdoll.jpg" alt=""></a>
                 <div class="card-body">
-                  <h4 class="card-title">
-                    <a href="#">Ragdoll</a>
-                  </h4>
+                  <h4 class="card-title">Ragdoll</h4>
                   <h5>Php 13,000.00</h5>
                   <p class="card-text">Ragdoll, barbie doll</p>
                 </div>
-                <div class="card-footer">
-                  <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                <div class="card-footer" style="text-align:center">
+                  <input type="submit" class="btn btn-primary" value="Show Details">
                 </div>
               </div>
             </div>
@@ -162,14 +153,12 @@
               <div class="card h-100">
                 <a href="#"><img class="card-img-top" src="img/bengal.jpg" alt=""></a>
                 <div class="card-body">
-                  <h4 class="card-title">
-                    <a href="#">Bengal</a>
-                  </h4>
+                  <h4 class="card-title">Bengal</h4>
                   <h5>Php 10,000.00</h5>
                   <p class="card-text">Bengal bells, Bengal bells, Bengal all the way</p>
                 </div>
-                <div class="card-footer">
-                  <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                <div class="card-footer" style="text-align:center">
+                  <input type="submit" class="btn btn-primary" value="Show Details">
                 </div>
               </div>
             </div>
@@ -178,14 +167,12 @@
               <div class="card h-100">
                 <a href="#"><img class="card-img-top" src="img/siberian.jpg" alt=""></a>
                 <div class="card-body">
-                  <h4 class="card-title">
-                    <a href="#">Siberian</a>
-                  </h4>
+                  <h4 class="card-title">Siberian</h4>
                   <h5>Php 24,000.00</h5>
                   <p class="card-text">Siberiaaaaaaaaaaaaa</p>
                 </div>
-                <div class="card-footer">
-                  <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                <div class="card-footer" style="text-align:center">
+                  <input type="submit" class="btn btn-primary" value="Show Details">
                 </div>
               </div>
             </div>
