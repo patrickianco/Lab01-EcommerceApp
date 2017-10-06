@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
-    <jsp:useBean id="pet" type="model.animal.Animal" scope="request"/>
+    <jsp:useBean id="food" type="model.food.Food" scope="request"/>
 <!DOCTYPE>
 <html>
 <head>
@@ -37,29 +37,21 @@
 	      	<h1>Checkout</h1>
 	     </div>
          <div class="col-lg-5 mt-5 mb-5" style="width:100%;height:300px; diplay:block;">
-             <img src="img/<%= pet.getCharacteristics().viewBreed()%>.jpg" class="img-responsive" style="height: 100%; width: 100%;"> 
+             <img src="img/<%= food.viewBrand()%>.jpg" class="img-responsive" style="height: 100%; width: 100%;">  
          </div>
          <div class="col-lg-7" style="width:100%;">
              <table>
                  <tr>
-                     <td><h3>Animal Type</h3></td>
-                     <td><h3><%= pet.viewAnimal()%></h3></td>
+                     <td><h3>Food Brand</h3></td>
+                     <td><h3><%= food.viewBrand()%></h3></td>
                  </tr>
                  <tr>
-                     <td><h3>Breed</h3></td>
-                     <td><h3><%= pet.getCharacteristics().viewBreed()%></h3></td>
-                 </tr>
-                 <tr>
-                     <td><h3>Color</h3></td>
-                     <td><h3><%= pet.getCharacteristics().viewColor()%></h3></td>
-                 </tr>
-                 <tr>
-                     <td><h3>Weight</h3></td>
-                     <td><h3><%= pet.getCharacteristics().viewWieght()%></h3></td>
+                     <td><h3>Description</h3></td>
+                     <td><h3><%= food.viewDescription()%></h3></td>
                  </tr>
                  <tr>
                      <td><h3>Price</h3></td>
-                     <td><h3><%= pet.getCharacteristics().viewPrice()%></h3></td>
+                     <td><h3><%= food.viewPrice()%></h3></td>
                  </tr>
              </table>
          </div>

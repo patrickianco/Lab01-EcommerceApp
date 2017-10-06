@@ -45,7 +45,7 @@ public class CharacteristicsFactory implements AbstractFactory {
 			switch(input)
 			{
 				case "Corgi": charateristics = new Corgi(); break;
-				case "GermanShepherd": charateristics = new GermanShepherd(); break;
+				case "German Shepherd": charateristics = new GermanShepherd(); break;
 				case "Labrador": charateristics = new Labrador(); break;
 				case "Beagle": charateristics = new Beagle(); break;
 				case "Pug": charateristics = new Pug(); break;

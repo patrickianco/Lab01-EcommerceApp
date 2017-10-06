@@ -25,7 +25,6 @@
           <span class="navbar-toggler-icon"></span>
         </button>
       </div>
-      </div>
     </nav>
 
     <!-- Page Content -->
@@ -75,94 +74,52 @@
             </a>
           </div>
 		  
-		  <form action="processPetSelection.html" method ="post" id="petForm">
+		  <form action="processFoodSelection.html" method ="post" id="petForm">
 		  <input type="hidden" name="selectedPet" value="Cat">
 		  
           <div class="row">
 
             <div class="col-lg-4 col-md-6 mb-4">
-              <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="img/Persian.jpg" alt=""></a>
-                <div class="card-body">
-                  <h4 class="card-title">Persian</h4>
-                  <h5>Php 20,500.00</h5>
-                  <p class="card-text">Puuuuursian Cat</p>
-                </div>
-                <div class="card-footer" style="text-align:center">
-                  <input type="submit" class="btn btn-primary" value="Persian" name="selectedBreed">
-                </div>
-              </div>
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="img/Authority.jpg" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">Authority</h4>
+              <h5>Php 700.00</h5>
+              <p class="card-text">Let's be honest, your cat is the one in charge.</p>
             </div>
+            <div class="card-footer" style="text-align:center">
+              <input type="submit" class="btn btn-primary" value="Authority" name="selectedFood">
+            </div>
+          </div>
+        </div>
 
-            <div class="col-lg-4 col-md-6 mb-4">
-              <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="img/Siamese.jpg" alt=""></a>
-                <div class="card-body">
-                  <h4 class="card-title">Siamese</h4>
-                  <h5>Php 18,000.00</h5>
-                  <p class="card-text">I'm Siamese but I'm not Japanese.</p>
-                </div>
-                <div class="card-footer" style="text-align:center">
-                  <input type="submit" class="btn btn-primary" value="Siamese" name="selectedBreed">
-                </div>
-              </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="img/Fancy Feast.jpg" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">Fancy Feast</h4>
+              <h5>Php 950.00</h5>
+              <p class="card-text">You cat deserves this.</p>
             </div>
+            <div class="card-footer" style="text-align:center">
+              <input type="submit" class="btn btn-primary" value="Fancy Feast" name="selectedFood">
+            </div>
+          </div>
+        </div>
 
-            <div class="col-lg-4 col-md-6 mb-4">
-              <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="img/Sphynx.jpg" alt=""></a>
-                <div class="card-body">
-                  <h4 class="card-title">Sphynx</h4>
-                  <h5>Php 28,300.00</h5>
-                  <p class="card-text">My mom is Cleopatra, bow down to me.</p>
-                </div>
-                <div class="card-footer" style="text-align:center">
-                  <input type="submit" class="btn btn-primary" value="Sphynx" name="selectedBreed">
-                </div>
-              </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="img/Friskies.jpg" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">Friskies</h4>
+              <h5>Php 1,100.00</h5>
+              <p class="card-text">The only cat food that people know</p>
             </div>
-
-            <div class="col-lg-4 col-md-6 mb-4">
-              <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="img/Ragdoll.jpg" alt=""></a>
-                <div class="card-body">
-                  <h4 class="card-title">Ragdoll</h4>
-                  <h5>Php 13,000.00</h5>
-                  <p class="card-text">Ragdoll, barbie doll</p>
-                </div>
-                <div class="card-footer" style="text-align:center">
-                  <input type="submit" class="btn btn-primary" value="Ragdoll" name="selectedBreed">
-                </div>
-              </div>
+            <div class="card-footer" style="text-align:center">
+              <input type="submit" class="btn btn-primary" value="Friskies" name="selectedFood">
             </div>
-
-            <div class="col-lg-4 col-md-6 mb-4">
-              <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="img/Bengal.jpg" alt=""></a>
-                <div class="card-body">
-                  <h4 class="card-title">Bengal</h4>
-                  <h5>Php 10,000.00</h5>
-                  <p class="card-text">Bengal bells, Bengal bells, Bengal all the way</p>
-                </div>
-                <div class="card-footer" style="text-align:center">
-                  <input type="submit" class="btn btn-primary" value="Bengal" name="selectedBreed">
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 mb-4">
-              <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="img/Siberian.jpg" alt=""></a>
-                <div class="card-body">
-                  <h4 class="card-title">Siberian</h4>
-                  <h5>Php 24,000.00</h5>
-                  <p class="card-text">Siberiaaaaaaaaaaaaa</p>
-                </div>
-                <div class="card-footer" style="text-align:center">
-                  <input type="submit" class="btn btn-primary" value="Siberian" name="selectedBreed">
-                </div>
-              </div>
-            </div>
+          </div>
+        </div>
 
           </div>
           </form>

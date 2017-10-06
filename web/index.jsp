@@ -20,28 +20,10 @@
 	<!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#">Start Bootstrap</a>
+        <a class="navbar-brand" href="index.jsp">Start Bootstrap</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-<!--             <li class="nav-item"> -->
-<!--               <a class="nav-link" href="#">Services</a> -->
-<!--             </li> -->
-<!--             <li class="nav-item"> -->
-<!--               <a class="nav-link" href="#">Contact</a> -->
-<!--             </li> -->
-          </ul>
-        </div>
       </div>
     </nav>
 
@@ -56,7 +38,8 @@
           <div class="list-group">
             <a href="index.jsp" class="list-group-item">Dogs</a>
             <a href="cats.jsp" class="list-group-item">Cats</a>
-            <a href="food.jsp" class="list-group-item">Foods</a>
+            <a href="food.jsp" class="list-group-item">Dog Foods</a>
+            <a href="catfood.jsp" class="list-group-item">Cat Foods</a>
           </div>
 
         </div>
@@ -97,7 +80,7 @@
 
             <div class="col-lg-4 col-md-6 mb-4">
               <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="img/corgi.jpg" alt=""></a>
+                <a href="#"><img class="card-img-top" src="img/Corgi.jpg" alt=""></a>
                 <div class="card-body">
                   <h4 class="card-title">Corgi</h4>
                   <h5>Php 25,000.00</h5>
@@ -111,21 +94,21 @@
 
             <div class="col-lg-4 col-md-6 mb-4">
               <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="img/german.jpg" alt=""></a>
+                <a href="#"><img class="card-img-top" src="img/German Shepherd.jpg" alt=""></a>
                 <div class="card-body">
                   <h4 class="card-title">German Shepherd</h4>
                   <h5>Php 28,000.00</h5>
                   <p class="card-text">Half German, half shepherd</p>
                 </div>
                 <div class="card-footer" style="text-align:center">
-                  <input type="submit" class="btn btn-primary" value="GermanShepherd" name="selectedBreed">
+                  <input type="submit" class="btn btn-primary" value="German Shepherd" name="selectedBreed">
                 </div>
               </div>
             </div>
 
             <div class="col-lg-4 col-md-6 mb-4">
               <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="img/labrador.jpg" alt=""></a>
+                <a href="#"><img class="card-img-top" src="img/Labrador.jpg" alt=""></a>
                 <div class="card-body">
                   <h4 class="card-title">Labrador Retriever</h4>
                   <h5>Php 15,000.00</h5>
@@ -139,7 +122,7 @@
 
             <div class="col-lg-4 col-md-6 mb-4">
               <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="img/beagle.jpg" alt=""></a>
+                <a href="#"><img class="card-img-top" src="img/Beagle.jpg" alt=""></a>
                 <div class="card-body">
                   <h4 class="card-title">Beagle</h4>
                   <h5>Php 21,000.00</h5>
@@ -153,7 +136,7 @@
 
             <div class="col-lg-4 col-md-6 mb-4">
               <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="img/pug.jpg" alt=""></a>
+                <a href="#"><img class="card-img-top" src="img/Pug.jpg" alt=""></a>
                 <div class="card-body">
                   <h4 class="card-title">Pug</h4>
                   <h5>Php 14,000.00</h5>
@@ -167,7 +150,7 @@
 
             <div class="col-lg-4 col-md-6 mb-4">
               <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="img/bulldog.jpg" alt=""></a>
+                <a href="#"><img class="card-img-top" src="img/Bulldog.jpg" alt=""></a>
                 <div class="card-body">
                   <h4 class="card-title">Bulldog</h4>
                   <h5>Php 31,000.00</h5>

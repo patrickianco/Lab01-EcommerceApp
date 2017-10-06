@@ -31,21 +31,9 @@
     <div class="container">
 
       <div class="row">
-
-        <div class="col-lg-3">
-
-          <h1 class="my-4">Animaux Domestiques</h1>
-          <div class="list-group">
-            <a href="index.jsp" class="list-group-item">Dogs</a>
-            <a href="cats.jsp" class="list-group-item">Cats</a>
-            <a href="food.jsp" class="list-group-item">Dog Foods</a>
-            <a href="catfood.jsp" class="list-group-item">Cat Foods</a>
-          </div>
-
-        </div>
         <!-- /.col-lg-3 -->
 
-        <div class="col-lg-9">
+        <div class="col-lg-12">
 
           <div id="carouselExampleIndicators" class="carousel slide my-4" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -55,13 +43,13 @@
             </ol>
             <div class="carousel-inner" role="listbox">
               <div class="carousel-item active">
-                <img class="d-block img-fluid" src="img/dog-1.jpg" alt="First slide">
+                <img class="d-block img-fluid" src="img/cat-1.jpg" alt="First slide" style="width:100%;">
               </div>
               <div class="carousel-item">
-                <img class="d-block img-fluid" src="img/dog-2.jpg" alt="Second slide">
+                <img class="d-block img-fluid" src="img/cat-2.jpg" alt="Second slide" style="width:100%;">
               </div>
               <div class="carousel-item">
-                <img class="d-block img-fluid" src="img/dog-3.jpg" alt="Third slide">
+                <img class="d-block img-fluid" src="img/cat-3.jpg" alt="Third slide" style="width:100%;">
               </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -73,57 +61,11 @@
               <span class="sr-only">Next</span>
             </a>
           </div>
-			
-		 <form action="processFoodSelection.html" method ="post" id="petForm">
-		  <input type="hidden" name="selectedPet" value="Dog">
-          <div class="row">
-
-            <div class="col-lg-4 col-md-6 mb-4">
-          <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="img/Blue Buffalo.jpg" alt=""></a>
-            <div class="card-body">
-              <h4 class="card-title">Blue Buffalo</h4>
-              <h5>Php 1,500.00</h5>
-              <p class="card-text">This will not make your dog blue. I promise.</p>
-            </div>
-            <div class="card-footer" style="text-align:center">
-              <input type="submit" class="btn btn-primary" value="Blue Buffalo" name="selectedFood">
-            </div>
-          </div>
+          
         </div>
-
-        <div class="col-lg-4 col-md-6 mb-4">
-          <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="img/Canidae.jpg" alt=""></a>
-            <div class="card-body">
-              <h4 class="card-title">Canidae</h4>
-              <h5>Php 800.00</h5>
-              <p class="card-text">Canidae eyyy</p>
-            </div>
-            <div class="card-footer" style="text-align:center">
-              <input type="submit" class="btn btn-primary" value="Canidae" name="selectedFood">
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 mb-4">
-          <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="img/Pedigree.jpg" alt=""></a>
-            <div class="card-body">
-              <h4 class="card-title">Pedigree</h4>
-              <h5>Php 1,200.00</h5>
-              <p class="card-text">The only dog food that people know.</p>
-            </div>
-            <div class="card-footer" style="text-align:center">
-              <input type="submit" class="btn btn-primary" value="Pedigree" name="selectedFood">
-            </div>
-          </div>
-        </div>
-
-          </div>
-          </form>
-          <!-- /.row -->
-
+        <div class="col-lg-12 mt-3 mb-3">
+		  <h1>Order Successful</h1>
+		  <h4>Your order has been received. Kindly for an email from our customer representative.</h4>
         </div>
         <!-- /.col-lg-9 -->
 
