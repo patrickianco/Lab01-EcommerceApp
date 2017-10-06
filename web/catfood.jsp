@@ -102,7 +102,7 @@
               <p class="card-text">You cat deserves this.</p>
             </div>
             <div class="card-footer" style="text-align:center">
-              <input type="submit" class="btn btn-primary" value="Fancy Feast" name="selectedFood">
+              <input type="submit" class="btn btn-primary" value="FancyFeast" name="selectedFood">
             </div>
           </div>
         </div>

@@ -87,7 +87,7 @@
               <p class="card-text">This will not make your dog blue. I promise.</p>
             </div>
             <div class="card-footer" style="text-align:center">
-              <input type="submit" class="btn btn-primary" value="Blue Buffalo" name="selectedFood">
+              <input type="submit" class="btn btn-primary" value="BlueBuffalo" name="selectedFood">
             </div>
           </div>
         </div>
