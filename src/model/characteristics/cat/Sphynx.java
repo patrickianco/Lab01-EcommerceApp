@@ -6,7 +6,7 @@ public class Sphynx extends Characteristics {
 
 	@Override
 	public String viewPrice() {
-		return "40,000 Pesos";
+		return "Php 28,300.00";
 	}
 
 	@Override

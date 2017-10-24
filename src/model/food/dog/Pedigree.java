@@ -6,7 +6,7 @@ public class Pedigree extends Food {
 
 	@Override
 	public String viewPrice() {
-		return "1000 Pesos";
+		return "Php 1,200.00";
 	}
 
 	@Override

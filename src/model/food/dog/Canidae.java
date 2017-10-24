@@ -6,7 +6,7 @@ public class Canidae extends Food {
 
 	@Override
 	public String viewPrice() {
-		return "3000 Pesos";
+		return "Php 800.00";
 	}
 
 	@Override

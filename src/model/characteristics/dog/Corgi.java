@@ -6,7 +6,7 @@ public class Corgi extends Characteristics {
 
 	@Override
 	public String viewPrice() {
-		return "25,000 Pesos";
+		return "Php 25,000.00";
 	}
 
 	@Override

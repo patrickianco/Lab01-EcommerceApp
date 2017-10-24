@@ -5,7 +5,7 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-	<title>Insert title here</title>
+	<title>Animaux Domestiques</title>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -23,7 +23,7 @@
 	<!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="index.jsp">Start Bootstrap</a>
+        <a class="navbar-brand" href="index.jsp">Animaux Domestiques</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -70,15 +70,15 @@
          	<form action="confirmation.jsp" method="POST">
 	         <div class="form-group">
 	         	<label for="name">Full Name</label>
-	   			<input class="form-control input-sm" id="name" type="text">
+	   			<input class="form-control input-sm" id="name" type="text" required>
 	         </div>
 	         <div class="form-group">
 	         	<label for="email">Email Address</label>
-	   			<input class="form-control input-sm" id="email" type="email">
+	   			<input class="form-control input-sm" id="email" type="email" required>
 	         </div>
 	         <div class="form-group">
 	         	<label for="num">Contact Number</label>
-	   			<input class="form-control input-sm" id="num" type="text" maxlength="11">
+	   			<input class="form-control input-sm" id="num" type="text" maxlength="11" required>
 	         </div>
 	         <input type="submit" class="btn btn-primary" value="Checkout">
          	</form>
@@ -96,7 +96,7 @@
     <!-- Footer -->
     <footer class="py-5 bg-dark">
       <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
+        <p class="m-0 text-center text-white">Copyright &copy; Bayabus & Co 2017</p>
       </div>
       <!-- /.container -->
     </footer>

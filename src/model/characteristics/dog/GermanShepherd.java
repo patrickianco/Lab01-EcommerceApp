@@ -6,7 +6,7 @@ public class GermanShepherd extends Characteristics {
 
 	@Override
 	public String viewPrice() {
-		return "40,000 Pesos";
+		return "Php 28,000.00";
 	}
 
 	@Override

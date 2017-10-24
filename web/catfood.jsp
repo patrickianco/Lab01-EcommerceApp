@@ -4,7 +4,7 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-	<title>Insert title here</title>
+	<title>Animaux Domestiques</title>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -20,7 +20,7 @@
 	<!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="index.jsp">Start Bootstrap</a>
+        <a class="navbar-brand" href="index.jsp">Animaux Domestiques</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -32,9 +32,7 @@
 
       <div class="row">
 
-        <div class="col-lg-3">
-
-          <h1 class="my-4">Animaux Domestiques</h1>
+        <div class="col-lg-3 mt-4">
           <div class="list-group">
             <a href="index.jsp" class="list-group-item">Dogs</a>
             <a href="cats.jsp" class="list-group-item">Cats</a>
@@ -102,7 +100,7 @@
               <p class="card-text">You cat deserves this.</p>
             </div>
             <div class="card-footer" style="text-align:center">
-              <input type="submit" class="btn btn-primary" value="FancyFeast" name="selectedFood">
+              <input type="submit" class="btn btn-primary" value="Fancy Feast" name="selectedFood">
             </div>
           </div>
         </div>
@@ -137,7 +135,7 @@
     <!-- Footer -->
     <footer class="py-5 bg-dark">
       <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
+        <p class="m-0 text-center text-white">Copyright &copy; Bayabus & Co 2017</p>
       </div>
       <!-- /.container -->
     </footer>

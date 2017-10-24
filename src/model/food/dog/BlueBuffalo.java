@@ -6,7 +6,7 @@ public class BlueBuffalo extends Food {
 
 	@Override
 	public String viewPrice() {
-		return "4000 Pesos";
+		return "Php 1,500.00";
 	}
 
 	@Override

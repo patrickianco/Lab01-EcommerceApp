@@ -4,7 +4,7 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-	<title>Insert title here</title>
+	<title>Animaux Domestiques</title>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -20,7 +20,7 @@
 	<!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="index.jsp">Start Bootstrap</a>
+        <a class="navbar-brand" href="index.jsp">Animaux Domestiques</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -33,9 +33,7 @@
 
       <div class="row">
 
-        <div class="col-lg-3">
-
-          <h1 class="my-4">Animaux Domestiques</h1>
+        <div class="col-lg-3 mt-4">
           <div class="list-group">
             <a href="index.jsp" class="list-group-item">Dogs</a>
             <a href="cats.jsp" class="list-group-item">Cats</a>
@@ -86,7 +84,7 @@
                 <div class="card-body">
                   <h4 class="card-title">Persian</h4>
                   <h5>Php 20,500.00</h5>
-                  <p class="card-text">Puuuuursian Cat</p>
+                  <p class="card-text">The Persian cat is a long-haired breed of cat characterized by its round face and short muzzle. It is also known as the Persian Longhair.</p>
                 </div>
                 <div class="card-footer" style="text-align:center">
                   <input type="submit" class="btn btn-primary" value="Persian" name="selectedBreed">
@@ -100,7 +98,7 @@
                 <div class="card-body">
                   <h4 class="card-title">Siamese</h4>
                   <h5>Php 18,000.00</h5>
-                  <p class="card-text">I'm Siamese but I'm not Japanese.</p>
+                  <p class="card-text">The Siamese cat is one of the first distinctly recognized breeds of Asian cat.</p>
                 </div>
                 <div class="card-footer" style="text-align:center">
                   <input type="submit" class="btn btn-primary" value="Siamese" name="selectedBreed">
@@ -114,7 +112,7 @@
                 <div class="card-body">
                   <h4 class="card-title">Sphynx</h4>
                   <h5>Php 28,300.00</h5>
-                  <p class="card-text">My mom is Cleopatra, bow down to me.</p>
+                  <p class="card-text">The Sphynx cat is a breed of cat known for its lack of coat. The Sphynx was developed through selective breeding, starting in the 1960s.</p>
                 </div>
                 <div class="card-footer" style="text-align:center">
                   <input type="submit" class="btn btn-primary" value="Sphynx" name="selectedBreed">
@@ -128,7 +126,7 @@
                 <div class="card-body">
                   <h4 class="card-title">Ragdoll</h4>
                   <h5>Php 13,000.00</h5>
-                  <p class="card-text">Ragdoll, barbie doll</p>
+                  <p class="card-text">The Ragdoll is a cat breed with blue eyes and a distinct colourpoint coat. It is a large and muscular semi-longhair cat with a soft and silky coat.</p>
                 </div>
                 <div class="card-footer" style="text-align:center">
                   <input type="submit" class="btn btn-primary" value="Ragdoll" name="selectedBreed">
@@ -142,7 +140,7 @@
                 <div class="card-body">
                   <h4 class="card-title">Bengal</h4>
                   <h5>Php 10,000.00</h5>
-                  <p class="card-text">Bengal bells, Bengal bells, Bengal all the way</p>
+                  <p class="card-text">The Bengal is a domestic cat breed developed to look like exotic jungle cats such as leopards, ocelots, margays and clouded leopards.</p>
                 </div>
                 <div class="card-footer" style="text-align:center">
                   <input type="submit" class="btn btn-primary" value="Bengal" name="selectedBreed">
@@ -156,7 +154,7 @@
                 <div class="card-body">
                   <h4 class="card-title">Siberian</h4>
                   <h5>Php 24,000.00</h5>
-                  <p class="card-text">Siberiaaaaaaaaaaaaa</p>
+                  <p class="card-text">The Siberian is a landrace variety of domestic cat, present in Russia for centuries, and more recently developed as a formal breed, with standards promulgated since the late 1980s.</p>
                 </div>
                 <div class="card-footer" style="text-align:center">
                   <input type="submit" class="btn btn-primary" value="Siberian" name="selectedBreed">
@@ -180,7 +178,7 @@
     <!-- Footer -->
     <footer class="py-5 bg-dark">
       <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
+        <p class="m-0 text-center text-white">Copyright &copy; Bayabus & Co 2017</p>
       </div>
       <!-- /.container -->
     </footer>

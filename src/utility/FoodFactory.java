@@ -24,7 +24,7 @@ public class FoodFactory implements AbstractFactory {
 			switch(input) 
 			{
 				case "Authority": food = new Authority(); break;
-				case "FancyFeast": food = new FancyFeast(); break;
+				case "Fancy Feast": food = new FancyFeast(); break;
 				case "Friskies": food = new Friskies(); break;
 			}
 		}
@@ -32,7 +32,7 @@ public class FoodFactory implements AbstractFactory {
 		{
 			switch(input) 
 			{
-				case "BlueBuffalo": food = new BlueBuffalo(); break;
+				case "Blue Buffalo": food = new BlueBuffalo(); break;
 				case "Canidae": food = new Canidae(); break;
 				case "Pedigree": food = new Pedigree(); break;
 			}

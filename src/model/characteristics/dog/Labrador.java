@@ -6,7 +6,7 @@ public class Labrador extends Characteristics {
 
 	@Override
 	public String viewPrice() {
-		return "60,000 Pesos";
+		return "Php 15,000.00";
 	}
 
 	@Override
@@ -16,7 +16,7 @@ public class Labrador extends Characteristics {
 
 	@Override
 	public String viewColor() {
-		return "Brown";
+		return "Gold";
 	}
 
 	@Override

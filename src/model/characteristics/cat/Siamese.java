@@ -6,7 +6,7 @@ public class Siamese extends Characteristics {
 
 	@Override
 	public String viewPrice() {
-		return "30,000 Pesos";
+		return "Php 18,000.00";
 	}
 
 	@Override
@@ -16,7 +16,7 @@ public class Siamese extends Characteristics {
 
 	@Override
 	public String viewColor() {
-		return "Blue";
+		return "Gray";
 	}
 
 	@Override

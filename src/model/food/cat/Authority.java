@@ -6,7 +6,7 @@ public class Authority extends Food {
 
 	@Override
 	public String viewPrice() {
-		return "5000 Pesos";
+		return "Php 700.00";
 	}
 
 	@Override

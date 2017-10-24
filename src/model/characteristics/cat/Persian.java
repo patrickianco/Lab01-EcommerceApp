@@ -6,7 +6,7 @@ public class Persian extends Characteristics {
 
 	@Override
 	public String viewPrice() {
-		return "20,000 Pesos";
+		return "Php20,500.00";
 	}
 
 	@Override
@@ -16,7 +16,7 @@ public class Persian extends Characteristics {
 
 	@Override
 	public String viewColor() {
-		return "Gray";
+		return "Gold/White";
 	}
 
 	@Override

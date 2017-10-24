@@ -4,7 +4,7 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-	<title>Insert title here</title>
+	<title>Animaux Domestiques</title>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -20,7 +20,7 @@
 	<!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="index.jsp">Start Bootstrap</a>
+        <a class="navbar-brand" href="index.jsp">Animaux Domestiques</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -32,9 +32,7 @@
 
       <div class="row">
 
-        <div class="col-lg-3">
-
-          <h1 class="my-4">Animaux Domestiques</h1>
+        <div class="col-lg-3 mt-4">
           <div class="list-group">
             <a href="index.jsp" class="list-group-item">Dogs</a>
             <a href="cats.jsp" class="list-group-item">Cats</a>
@@ -84,7 +82,7 @@
                 <div class="card-body">
                   <h4 class="card-title">Corgi</h4>
                   <h5>Php 25,000.00</h5>
-                  <p class="card-text">I have a big butt!</p>
+                  <p class="card-text">The Pembroke Welsh Corgi is a cattle herding dog breed which originated in Pembrokeshire, Wales. It is one of two breeds known as a Welsh Corgi.</p>
                 </div>
                 <div class="card-footer" style="text-align:center">
                   <input type="submit" class="btn btn-primary" value="Corgi" name="selectedBreed">
@@ -98,7 +96,7 @@
                 <div class="card-body">
                   <h4 class="card-title">German Shepherd</h4>
                   <h5>Php 28,000.00</h5>
-                  <p class="card-text">Half German, half shepherd</p>
+                  <p class="card-text">The German Shepherd is a breed of medium to large-sized working dog that originated in Germany.</p>
                 </div>
                 <div class="card-footer" style="text-align:center">
                   <input type="submit" class="btn btn-primary" value="German Shepherd" name="selectedBreed">
@@ -112,7 +110,7 @@
                 <div class="card-body">
                   <h4 class="card-title">Labrador Retriever</h4>
                   <h5>Php 15,000.00</h5>
-                  <p class="card-text">I'm the dog from the movie Up! Ball!</p>
+                  <p class="card-text">The Labrador Retriever, also Labrador, is a type of retriever-gun dog. The Labrador is one of the most popular breeds of dog in the United Kingdom and the United States.</p>
                 </div>
                 <div class="card-footer" style="text-align:center">
                   <input type="submit" class="btn btn-primary" value="Labrador" name="selectedBreed">
@@ -126,7 +124,7 @@
                 <div class="card-body">
                   <h4 class="card-title">Beagle</h4>
                   <h5>Php 21,000.00</h5>
-                  <p class="card-text">Look at my ears!</p>
+                  <p class="card-text">The Beagle is a breed of small hound, similar in appearance to the much larger foxhound. The beagle is a scent hound, developed primarily for hunting hare.</p>
                 </div>
                 <div class="card-footer" style="text-align:center">
                   <input type="submit" class="btn btn-primary" value="Beagle" name="selectedBreed">
@@ -140,7 +138,7 @@
                 <div class="card-body">
                   <h4 class="card-title">Pug</h4>
                   <h5>Php 14,000.00</h5>
-                  <p class="card-text">I'm a pug, so please give me a hug.</p>
+                  <p class="card-text">The Pug is a breed of dog with physically distinctive features of a wrinkly, short-muzzled face, and curled tail.</p>
                 </div>
                 <div class="card-footer" style="text-align:center">
                   <input type="submit" class="btn btn-primary" value="Pug" name="selectedBreed">
@@ -154,7 +152,7 @@
                 <div class="card-body">
                   <h4 class="card-title">Bulldog</h4>
                   <h5>Php 31,000.00</h5>
-                  <p class="card-text">I'm a good boy, I promise!</p>
+                  <p class="card-text">The Bulldog is a medium-sized breed of dog commonly referred to as the English Bulldog or British Bulldog.</p>
                 </div>
                 <div class="card-footer" style="text-align:center">
                   <input type="submit" class="btn btn-primary" value="Bulldog" name="selectedBreed">
@@ -178,7 +176,7 @@
     <!-- Footer -->
     <footer class="py-5 bg-dark">
       <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
+        <p class="m-0 text-center text-white">Copyright &copy; Bayabus & Co 2017</p>
       </div>
       <!-- /.container -->
     </footer>

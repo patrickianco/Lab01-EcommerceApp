@@ -7,7 +7,7 @@ public class Bengal extends Characteristics {
 	@Override
 	public String viewPrice() {
 		// TODO Auto-generated method stub
-		return "";
+		return "Php 10,000.00";
 	}
 
 	@Override
@@ -19,13 +19,13 @@ public class Bengal extends Characteristics {
 	@Override
 	public String viewColor() {
 		// TODO Auto-generated method stub
-		return "";
+		return "Brown/Gold";
 	}
 
 	@Override
 	public String viewWieght() {
 		// TODO Auto-generated method stub
-		return "";
+		return "15kg";
 	}
 
 	@Override

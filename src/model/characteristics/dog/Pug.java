@@ -7,7 +7,7 @@ public class Pug extends Characteristics {
 	@Override
 	public String viewPrice() {
 		// TODO Auto-generated method stub
-		return "";
+		return "Php 14,000.00";
 	}
 
 	@Override
@@ -19,13 +19,13 @@ public class Pug extends Characteristics {
 	@Override
 	public String viewColor() {
 		// TODO Auto-generated method stub
-		return "";
+		return "Black/White";
 	}
 
 	@Override
 	public String viewWieght() {
 		// TODO Auto-generated method stub
-		return "";
+		return "15kg";
 	}
 
 	@Override

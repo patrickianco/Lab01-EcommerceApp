@@ -6,7 +6,7 @@ public class Friskies extends Food {
 
 	@Override
 	public String viewPrice() {
-		return "6000 Pesos";
+		return "Php 1,100.00";
 	}
 
 	@Override

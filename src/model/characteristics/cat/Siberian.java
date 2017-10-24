@@ -7,7 +7,7 @@ public class Siberian extends Characteristics {
 	@Override
 	public String viewPrice() {
 		// TODO Auto-generated method stub
-		return "";
+		return "Php 24,000.00";
 	}
 
 	@Override
@@ -19,13 +19,13 @@ public class Siberian extends Characteristics {
 	@Override
 	public String viewColor() {
 		// TODO Auto-generated method stub
-		return "";
+		return "Gold/Black";
 	}
 
 	@Override
 	public String viewWieght() {
 		// TODO Auto-generated method stub
-		return "";
+		return "19kg";
 	}
 
 	@Override

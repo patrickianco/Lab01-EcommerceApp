@@ -7,7 +7,7 @@ public class Ragdoll extends Characteristics {
 	@Override
 	public String viewPrice() {
 		// TODO Auto-generated method stub
-		return "";
+		return "Php 13,000.00";
 	}
 
 	@Override
@@ -19,13 +19,13 @@ public class Ragdoll extends Characteristics {
 	@Override
 	public String viewColor() {
 		// TODO Auto-generated method stub
-		return "";
+		return "White";
 	}
 
 	@Override
 	public String viewWieght() {
 		// TODO Auto-generated method stub
-		return "";
+		return "23kg";
 	}
 
 	@Override

@@ -7,7 +7,7 @@ public class Beagle extends Characteristics {
 	@Override
 	public String viewPrice() {
 		// TODO Auto-generated method stub
-		return "";
+		return "Php 21,000.00";
 	}
 
 	@Override
@@ -19,13 +19,13 @@ public class Beagle extends Characteristics {
 	@Override
 	public String viewColor() {
 		// TODO Auto-generated method stub
-		return "";
+		return "Brown/White";
 	}
 
 	@Override
 	public String viewWieght() {
 		// TODO Auto-generated method stub
-		return "";
+		return "20kg";
 	}
 
 	@Override
